@@ -6,11 +6,19 @@
 	padding:0;
 }
 
+@font-face {
+	font-family: 'Neurimbo Gothic';
+	src: url('{{ "/assets/fonts/neurimbogothicregular.otf" | relative_url }}') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 body {
-	font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+	font-family: "Neurimbo Gothic", "Noto Sans KR", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-	line-height:1.5;
+	text-rendering: optimizeLegibility;
+	line-height: 1.5;
 	font-size: 1rem;
 	color: rgb(22, 23, 26);
 }
