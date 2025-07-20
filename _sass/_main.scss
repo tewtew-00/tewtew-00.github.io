@@ -30,6 +30,41 @@ a:hover {
 	transition: color 0.3s ease;
 }
 
+/* 모던 형광펜 스타일 */
+.hl {
+	background: #f0ff00;
+	padding: 2px 4px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+
+.hl-p {
+	background: #ff69b4;
+	padding: 2px 4px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+
+.hl-g {
+	background: #00ff7f;
+	padding: 2px 4px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+
+.hl-b {
+	background: #00bfff;
+	padding: 2px 4px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+
+.hl-o {
+	background: #ff8c00;
+	padding: 2px 4px;
+	border-radius: 3px;
+	border: 1px solid #000;
+}
 
 pre {
 	margin: .5rem 0;
