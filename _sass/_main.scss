@@ -8,7 +8,8 @@
 
 @font-face {
 	font-family: 'Neurimbo Gothic';
-	src: url('{{ "/assets/fonts/neurimbogothicregular.otf" | relative_url }}') format('opentype');
+	src: url('/assets/fonts/neurimboGothicRegular.otf') 
+	format('opentype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
